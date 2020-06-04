@@ -1,0 +1,168 @@
+body {
+	padding-top: 70px;
+	overflow: hidden;
+}
+/*Start Header Menu*/
+.our-menu-header .our-menu-header h2 , h3 { font-family: 'Lobster', cursive; /*main font-family for h2 & h3 */}
+.our-menu-header .our-menu-header h2 { margin-bottom: 25px;}
+.our-menu-content .menu-content {
+	background-color: #DBE2EA;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.our-menu-content .menu-content h3 {margin-bottom: 10px; font-weight: bold; display: inline-block;}
+.our-menu-content .menu-content span {
+	font-size: 40px;
+	margin:10px;
+	color:#842781;
+}
+.our-menu-content .menu-content ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	margin: -7px 0 20px;
+    padding-bottom: 2px;
+    color: #494444;
+    
+}
+.our-menu-content .menu-content hr { border-color: #842781; }
+.our-menu-content .menu-img img {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.our-menu-content .menu-img .btn {
+	padding: 13px;
+	background-color: #842781;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+/*End Header Menu*/
+/*Start Section Our Secondary Menu*/
+.menu-second {
+	height: 500px;
+	background: url('../images/3537129.jpg') no-repeat center center ;
+	margin-top: 30px;
+}
+.menu-second .menu-second-content {
+	background: rgba(3,3,3,0.5);
+	color: #FFF;
+	min-height: 500px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.menu-second .menu-second-content h2 , h3  {
+	font-size: 50px;
+	font-weight: bold;
+	color:#842781;
+	font-family: 'Lobster', cursive; /*main font-family for h2 & h3 */
+	margin-bottom: 10px;
+}
+.menu-second .menu-second-content h3 ,  {
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+.menu-second .menu-second-content ul li {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+/*End Section Our Secondary Menu*/
+/* ########################Start Page About Us###################################### */
+/*Start Section About Us Header*/
+.about-us .about-us-content{
+	
+	padding-bottom: 40px;
+}
+.about-us h2 {
+	font-family: 'Lobster', cursive;
+	margin-bottom: 25px;
+	font-weight: bold;
+	padding-bottom: 5px;
+
+}
+.about-us h3 { font-family: 'Lobster', cursive; }
+.about-us p  { margin-right: 3px; }
+/*End Section About Us Header*/
+/*Start Section Our Team*/
+.our-team {
+	background: url('../images/team.jpg') no-repeat center center fixed;
+	min-height: 700px;
+	width: 100%;
+	margin-top: 30px;
+	 /*margin-bottom: 40px;*/
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.our-team .team {
+	background: rgba(2,2,2,0.8);
+	color: #FFF;
+	min-height: 700px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.our-team .team h3 { margin-bottom: 80px; color:#FFF; }
+.our-team .team .person {
+	margin-bottom: 40px;
+}
+.our-team .team .person h3 {
+	font-size: 30px;
+	color: #842781;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.our-team .team .person p { margin-top: 25px; }
+.our-team .team .person i {
+	font-size: 30px;
+	padding: 5px;
+	margin-top: 13px;
+	cursor: pointer;
+}
+/*End Section Our Team*/
+/* ########################End Page About Us###################################### */
+/* ########################Start Section Contact Us############################### */
+/*Start Section Contact & Map*/
+.contact-us { margin-bottom: 40px; }
+.contact-us h2 { font-family: 'Lobster', cursive; /*main font-family for h2 & h3 */ }
+.contact-us .row h2 { margin-left: 15px; margin-bottom: 20px; }
+.contact-us .field  input , .contact-us .field textarea { border-color:   #842781; }
+.contact-us .field textarea { height: 150px; resize: none; }
+.contact-us .btn {
+	background-color: #842781;
+	margin-bottom: 30px;
+	font-family: 'Lobster', cursive;
+	font-size:20px;
+}
+.contact-us .location {
+	width: 100%;
+    height: 397px;
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+/*End Section Contact & Map*/
+/* ########################End Section Contact Us############################### */
+/* ########################Start Section FAQ############################### */
+.breadcrumb-holder { background-color: #F5F5F5; }
+.breadcrumb { padding: 10px 0; margin:0; }
+/*Start Section Accordion*/
+.faq { margin-bottom: 40px; }
+.faq h2 {
+	font-family: 'Lobster', cursive; /*main font-family for h2 & h3 */
+	font-size: 35px;
+}
+.faq p                          { line-height: 1.5; }
+.faq-question                   { margin-bottom: 40px; }
+.faq-question .panel-heading h4 { padding: 5px 0; font-size: 20px; }
+.faq-question .panel-heading a  { text-decoration: none; }
+.faq-question .panel-heading a:after {
+	font-family: "Glyphicons Halflings";
+	content: "\e114";
+	float: right;
+	color:#333;
+}
+.faq-question .panel-heading a.collapsed:after { content: "\e080"; color:#999; } 
+.faq-question .panel-body { font-size: 18px; padding-bottom: 20px; }
+/*End Section Accordion*/
